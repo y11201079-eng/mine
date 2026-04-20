@@ -187,14 +187,14 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FDFCFB] text-[#1D1D1F] font-sans selection:bg-orange-100 p-4 md:p-8 flex flex-col items-center">
+    <div className="min-h-screen bg-[#FDFCFB] text-[#1D1D1F] font-sans selection:bg-orange-100 p-4 md:p-8 flex flex-col items-center text-center">
       {/* Header */}
       <header className="w-full max-w-4xl flex items-center justify-between mb-8 border-b border-gray-100 pb-6">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-orange-500 rounded-xl flex items-center justify-center shadow-lg shadow-orange-200">
             <Bomb className="text-white w-6 h-6" />
           </div>
-          <div>
+          <div className="text-left">
             <h1 className="text-2xl font-bold tracking-tight">Modern Mines</h1>
             <p className="text-xs text-gray-400 font-medium uppercase tracking-widest">Minimal Strategy</p>
           </div>
@@ -373,7 +373,7 @@ export default function App() {
       </div>
 
       {/* How to play */}
-      <div className="w-full max-w-4xl mt-12 grid md:grid-cols-2 gap-8 items-start">
+      <div className="w-full max-w-4xl mt-12 grid md:grid-cols-2 gap-8 items-start text-left">
         <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-50">
           <div className="flex items-center gap-2 mb-4 text-[#1D1D1F]">
             <HelpCircle className="w-5 h-5 text-orange-500" />
